@@ -10,7 +10,7 @@ function App() {
       <div className='black-nav'>
         <div>개발 Blog</div>
       </div>
-      <h4>{posts}</h4>
+      <p>{posts}</p>
     </div>
   );
 }
