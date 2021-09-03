@@ -27,6 +27,12 @@
     "prettier": "^2.2.1",
     "vue-template-compiler": "^2.6.11"
   },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "useTabs": false,
+    "tabWidth": 2
+  },
   "eslintConfig": {
     "root": true,
     "env": {
