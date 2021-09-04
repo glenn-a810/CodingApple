@@ -10,28 +10,28 @@
     <div class="menu">
       <a v-for="(topMenu, menuId) in menus" :key="menuId">{{ topMenu }}</a>
     </div>
-    <!-- <div>
-      <h4 v-for="(contents, contentsId) in products" :key="contentsId">
-        {{ contents }}
-      </h4>
-      <p v-for="(price, priceId) in price" :key="priceId">{{ price }}</p>
-    </div> -->
-    <div v-for="(contents, contentsId) in products" :key="contentsId">
+    <!-- <div v-for="(contents, contentsId) in products" :key="contentsId">
       <h4>{{contents}}</h4>
       <p>{{price[contentsId]}}</p>
-    </div>
-    <!-- <div>
+    </div> -->
+    <div>
       <h4>{{ products[0] }}</h4>
-      <p>{{ price1 }} 만원</p>
+      <p>{{ price[0] }} 만원</p>
+      <button @click="fakeCopy">허위매물신고</button>
+      <span>신고수 : {{ fake[0] }}</span>
     </div>
     <div>
       <h4>{{ products[1] }}</h4>
-      <p>{{ price2 }} 만원</p>
+      <p>{{ price[1] }} 만원</p>
+      <button @click="fake[1]++">허위매물신고</button>
+      <span>신고수 : {{ fake[1] }}</span>
     </div>
     <div>
       <h4>{{ products[2] }}</h4>
-      <p>{{ price3 }} 만원</p>
-    </div> -->
+      <p>{{ price[2] }} 만원</p>
+      <button @click="fake[2]++">허위매물신고</button>
+      <span>신고수 : {{ fake[2] }}</span>
+    </div>
   </div>
 </template>
 
@@ -40,11 +40,20 @@ export default {
   name: 'App',
   data() {
     return {
+      fake: [0, 0, 0],
       price: ['1000/120', '1000/130', '1000/110'],
       products: ['역삼동원룸', '삼평동원룸', '백현동원룸'],
       menus: ['Home', 'Shop', 'About'],
     }
   },
+
+  methods: {
+    fakeCopy() {
+      const copyFake = [...this.fake]
+      copyFake[0]++
+      this.fake = copyFake
+    }
+  }
 }
 </script>
 
