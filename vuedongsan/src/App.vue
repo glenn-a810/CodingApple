@@ -11,8 +11,10 @@
     <!-- 모달 -->
     <div class="black-bg" v-if="modalOpen === true">
       <div class="white-bg">
-        <h4>상세페이지</h4>
-        <p>상세페이지 내용</p>
+        <img :src="products[userSelect].image" class="room-img" />
+        <h4>{{ products[userSelect].title }}</h4>
+        <p>{{ products[userSelect].content }}</p>
+        <p>{{ products[userSelect].price }}원</p>
         <button @click="modalOpen = false">닫기</button>
       </div>
     </div>
@@ -21,54 +23,49 @@
     <div class="menu">
       <a v-for="(topMenu, menuId) in menus" :key="menuId">{{ topMenu }}</a>
     </div>
-    <!-- <div v-for="(contents, contentsId) in products" :key="contentsId">
-      <h4>{{contents}}</h4>
-      <p>{{price[contentsId]}}</p>
-    </div> -->
 
     <!-- 내용 -->
-    <div>
-      <img src="./assets/room0.jpg" class="room-img">
-      <h4 @click="modalOpen = true">{{ products[0] }}</h4>
-      <p>{{ price[0] }} 만원</p>
-      <button @click="[fake[0]++, $forceUpdate()]">허위매물신고</button>
-      <span>신고수 : {{ fake[0] }}</span>
+    <div v-for="(contents, contentsId) in products" :key="contentsId">
+      <!-- <img :src="contents[contentsId].image" class="room-img" />
+      <h4 @click="modalOpen = true">{{ contents[contentsId].title }}</h4>
+      <p>{{ contents[contentsId].price }}원</p> -->
+      <img :src="contents.image" class="room-img" />
+      <h4
+        @click="
+          modalOpen = true
+          userSelect = contentsId
+        "
+      >
+        {{ contents.title }}
+      </h4>
+      <p>{{ contents.price }}원</p>
     </div>
-    <div>
-      <img src="./assets/room1.jpg" class="room-img">
-      <h4 @click="modalOpen = true">{{ products[1] }}</h4>
-      <p>{{ price[1] }} 만원</p>
-      <button @click="[fake[1]++, $forceUpdate()]">허위매물신고</button>
-      <span>신고수 : {{ fake[1] }}</span>
-    </div>
-    <div>
-      <img src="./assets/room2.jpg" class="room-img">
-      <h4 @click="modalOpen = true">{{ products[2] }}</h4>
-      <p>{{ price[2] }} 만원</p>
-      <button @click="[fake[2]++, $forceUpdate()]">허위매물신고</button>
-      <span>신고수 : {{ fake[2] }}</span>
-    </div>
+    <!-- {{ log() }} -->
   </div>
 </template>
 
 <script>
+import productData from './data/post.js'
+
 export default {
   name: 'App',
   data() {
     return {
+      userSelect: 0,
       modalOpen: false,
       fake: [0, 0, 0],
       price: ['1000/120', '1000/130', '1000/110'],
-      products: ['역삼동원룸', '삼평동원룸', '백현동원룸'],
       menus: ['Home', 'Shop', 'About'],
+      // products: [productData],
+      products: productData,
     }
   },
 
   methods: {
-    fakeCopy() {
-      const copyFake = [...this.fake]
-      copyFake[0]++
-      this.fake = copyFake
+    log() {
+      console.log(this.products.length)
+      console.log(this.products)
+      console.log(this.products[0].title)
     },
   },
 }
@@ -86,7 +83,7 @@ div {
 .black-bg {
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   padding: 20px;
 }
