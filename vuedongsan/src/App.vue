@@ -8,44 +8,35 @@
   </div> -->
 
   <div id="app">
-    <!-- 모달 -->
-    <div class="black-bg" v-if="modalOpen === true">
-      <div class="white-bg">
-        <img :src="products[userSelect].image" class="room-img" />
-        <h4>{{ products[userSelect].title }}</h4>
-        <p>{{ products[userSelect].content }}</p>
-        <p>{{ products[userSelect].price }}원</p>
-        <button @click="modalOpen = false">닫기</button>
-      </div>
-    </div>
-
     <!-- 메뉴 -->
     <div class="menu">
       <a v-for="(topMenu, menuId) in menus" :key="menuId">{{ topMenu }}</a>
     </div>
 
-    <!-- 내용 -->
-    <div v-for="(contents, contentsId) in products" :key="contentsId">
-      <!-- <img :src="contents[contentsId].image" class="room-img" />
-      <h4 @click="modalOpen = true">{{ contents[contentsId].title }}</h4>
-      <p>{{ contents[contentsId].price }}원</p> -->
-      <img :src="contents.image" class="room-img" />
-      <h4
-        @click="
-          modalOpen = true
-          userSelect = contentsId
-        "
-      >
-        {{ contents.title }}
-      </h4>
-      <p>{{ contents.price }}원</p>
-    </div>
-    <!-- {{ log() }} -->
+    <!-- 모달 Component -->
+    <Modal
+      :products="products"
+      :modalOpen="modalOpen"
+      :userSelect="userSelect"
+    />
+
+    <!-- 배너 Component -->
+    <Discount />
+
+    <!-- 내용 Component -->
+    <List
+      v-for="(product, productId) in products"
+      :key="productId"
+      :products="products[productId]"
+    />
   </div>
 </template>
 
 <script>
 import productData from './data/post.js'
+import Discount from './components/Discount.vue'
+import Modal from './components/Modal.vue'
+import List from './components/List.vue'
 
 export default {
   name: 'App',
@@ -67,6 +58,12 @@ export default {
       console.log(this.products)
       console.log(this.products[0].title)
     },
+  },
+
+  components: {
+    Discount, // Discount: Discount
+    Modal, // Modal: Modal
+    List, // List: List
   },
 }
 </script>
