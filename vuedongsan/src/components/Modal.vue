@@ -26,7 +26,15 @@ export default {
         alert('숫자만 입력할 수 있습니다.')
         this.month = 1
       }
+      // else if(userInput == 2) {
+      //   alert('아 안팔아요')
+      // }
     },
+  },
+  updated() {
+    if(this.month == 2) {
+      alert('안팔아요')
+    }
   },
   props: {
     products: Array,

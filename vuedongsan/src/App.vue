@@ -24,7 +24,7 @@
     </div>
 
     <!-- 배너 Component -->
-    <Discount />
+    <Discount v-if="showDiscount == true" :discountRate="discountRate" />
 
     <!-- 정렬 -->
     <button @click="priceSort">가격순정렬</button>
@@ -53,6 +53,8 @@ export default {
   name: 'App',
   data() {
     return {
+      discountRate: 30,
+      showDiscount: true,
       productsOriginal: [...productData],
       userSelect: 0,
       modalOpen: false,
@@ -78,6 +80,18 @@ export default {
     sortReset() {
       this.products = [...this.productsOriginal]
     },
+    discountTimer() {
+      if (this.discountRate <= 30 && this.discountRate > 0) {
+        setTimeout(() => {
+          this.discountRate -= 1
+          this.discountTimer()
+        }, 1000)
+      }
+    },
+  },
+
+  mounted() {
+    this.discountTimer()
   },
 
   components: {
