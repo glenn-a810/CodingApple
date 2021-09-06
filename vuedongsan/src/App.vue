@@ -26,6 +26,10 @@
     <!-- 배너 Component -->
     <Discount />
 
+    <!-- 정렬 -->
+    <button @click="priceSort">가격순정렬</button>
+    <button @click="sortReset">되돌리기</button>
+
     <!-- 내용 Component -->
     <List
       @openModal="
@@ -49,6 +53,7 @@ export default {
   name: 'App',
   data() {
     return {
+      productsOriginal: [...productData],
       userSelect: 0,
       modalOpen: false,
       fake: [0, 0, 0],
@@ -64,6 +69,14 @@ export default {
       console.log(this.products.length)
       console.log(this.products)
       console.log(this.products[0].title)
+    },
+    priceSort() {
+      this.products.sort((a, b) => {
+        return a.price - b.price
+      })
+    },
+    sortReset() {
+      this.products = [...this.productsOriginal]
     },
   },
 
