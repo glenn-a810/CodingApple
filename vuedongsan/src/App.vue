@@ -8,18 +8,20 @@
   </div> -->
 
   <div id="app">
+    <!-- 모달 Component -->
+    <transition name="fade">
+      <Modal
+        @closeModal="modalOpen = false"
+        :products="products"
+        :modalOpen="modalOpen"
+        :userSelect="userSelect"
+      />
+    </transition>
+
     <!-- 메뉴 -->
     <div class="menu">
       <a v-for="(topMenu, menuId) in menus" :key="menuId">{{ topMenu }}</a>
     </div>
-
-    <!-- 모달 Component -->
-    <Modal
-      @closeModal="modalOpen = false"
-      :products="products"
-      :modalOpen="modalOpen"
-      :userSelect="userSelect"
-    />
 
     <!-- 배너 Component -->
     <Discount />
@@ -74,6 +76,26 @@ export default {
 </script>
 
 <style>
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: all 1s;
+}
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-leave-from {
+  opacity: 1;
+}
+.fade-leave-active {
+  transition: all 1s;
+}
+.fade-leave-to {
+  opacity: 0;
+}
+
 body {
   margin: 0;
 }
