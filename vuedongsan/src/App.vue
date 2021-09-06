@@ -15,6 +15,7 @@
 
     <!-- 모달 Component -->
     <Modal
+      @closeModal="modalOpen = false"
       :products="products"
       :modalOpen="modalOpen"
       :userSelect="userSelect"
@@ -25,6 +26,10 @@
 
     <!-- 내용 Component -->
     <List
+      @openModal="
+        modalOpen = true
+        userSelect = $event
+      "
       v-for="(product, productId) in products"
       :key="productId"
       :products="products[productId]"

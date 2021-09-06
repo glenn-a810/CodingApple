@@ -6,7 +6,7 @@
             <h4>{{ products[userSelect].title }}</h4>
             <p>{{ products[userSelect].content }}</p>
             <p>{{ products[userSelect].price }}원</p>
-            <!-- <button @click="modalOpen = false">닫기</button> -->
+            <button @click="$emit('closeModal')">닫기</button>
         </div>
     </div>
 </template>

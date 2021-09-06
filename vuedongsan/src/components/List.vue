@@ -6,7 +6,7 @@
         <h4 @click="modalOpen = true">{{ contents[contentsId].title }}</h4>
         <p>{{ contents[contentsId].price }}원</p> -->
       <img :src="products.image" class="room-img" />
-      <h4>
+      <h4 @click="$emit('openModal', products.id)">
         {{ products.title }}
       </h4>
       <p>{{ products.price }}원</p>
