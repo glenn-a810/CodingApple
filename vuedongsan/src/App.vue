@@ -86,6 +86,8 @@ export default {
           this.discountRate -= 1
           this.discountTimer()
         }, 1000)
+      } else if (this.discountRate == 0) {
+        this.showDiscount = false
       }
     },
   },

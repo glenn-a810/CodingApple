@@ -31,9 +31,10 @@ export default {
       // }
     },
   },
-  updated() {
+  beforeUpdate() {
     if(this.month == 2) {
       alert('안팔아요')
+      this.month = 3
     }
   },
   props: {
