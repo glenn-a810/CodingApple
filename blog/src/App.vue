@@ -24,30 +24,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Main</a>
+              <!-- <a class="nav-link active" aria-current="page" href="#">Main</a> -->
+              <router-link to="/" class="nav-link">Main</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <!-- <a class="nav-link" href="#">Link</a> -->
+              <router-link to="/list" class="nav-link">List</router-link>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <router-link to="/detail" class="nav-link">Detail</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
@@ -68,30 +53,31 @@
       </div>
     </nav>
 
-    <div class="container mt-4">
+    <!-- <div class="container mt-4">
       <h5>Blog Test</h5>
       <p>Bootstrap으로 Vue.js 테스트</p>
-    </div>
+    </div> -->
 
-    <list :content="content" />
+    <!-- <list :content="content" /> -->
+    <router-view :content="content"></router-view>
 
   </div>
 </template>
 
 <script>
-import list from './components/list.vue'
+// import list from './components/list.vue'
 import content from './data/blogData.js'
 
 export default {
   name: 'App',
   data() {
     return {
-      content: content
+      content: content,
     }
   },
-  components: {
-    list: list,
-  },
+  // components: {
+  //   list: list,
+  // },
 }
 </script>
 
