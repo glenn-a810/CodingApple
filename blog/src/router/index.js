@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from "../views/Home.vue";
-// import list from '../components/list.vue'
+import list from '../components/list.vue'
 // import detail from '../components/detail.vue'
+import author from '../components/author.vue'
+import comment from '../components/comment.vue'
 
 Vue.use(VueRouter)
 
@@ -24,11 +26,26 @@ const routes = [
   {
     path: '/detail/:id',
     component: () => import('../components/detail.vue'),
+    children: [
+      {
+        path: 'author',
+        component: author,
+      },
+      {
+        path: 'comment',
+        component: comment,
+      },
+    ]
   },
   {
     path: '/list',
-    // component: list,
-    component: () => import('../components/list.vue'),
+    // component: {
+    //   list: list,
+    //   author: author,
+    //   comment: comment,
+    // }
+    // component: () => import('../components/list.vue'),
+    component: list,
   },
   {
     path: '/',

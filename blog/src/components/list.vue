@@ -13,7 +13,7 @@
       <p>{{content[2].date}}</p>
     </div> -->
     <div v-for="(content, contentId) in content" :key="contentId">
-      <h5>{{ content.title }}</h5>
+      <h5 @click="$router.push('/detail/0')">{{ content.title }}</h5>
       <p>{{ content.date }}</p>
     </div>
   </div>
