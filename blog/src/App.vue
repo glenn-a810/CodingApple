@@ -59,7 +59,9 @@
     </div> -->
 
     <!-- <list :content="content" /> -->
-    <router-view :content="content"></router-view>
+    <div class="mt-4">
+      <router-view :content="content"></router-view>
+    </div>
   </div>
 </template>
 

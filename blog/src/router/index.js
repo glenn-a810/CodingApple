@@ -22,13 +22,13 @@ const routes = [
   //     import(/* webpackChunkName: "about" */ "../views/About.vue"),
   // },
   {
+    path: '/detail/:id',
+    component: () => import('../components/detail.vue'),
+  },
+  {
     path: '/list',
     // component: list,
     component: () => import('../components/list.vue'),
-  },
-  {
-    path: 'detail',
-    component: () => import('../components/detail.vue'),
   },
   {
     path: '/',
