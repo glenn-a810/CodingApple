@@ -60,7 +60,6 @@
 
     <!-- <list :content="content" /> -->
     <router-view :content="content"></router-view>
-
   </div>
 </template>
 

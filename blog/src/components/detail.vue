@@ -1,15 +1,11 @@
 <template>
   <div>
-    <h4>상세페이지</h4>
+    <h4>test</h4>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'detail'
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>

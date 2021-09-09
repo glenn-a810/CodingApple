@@ -28,7 +28,7 @@ const routes = [
   },
   {
     path: 'detail',
-    component: () => import('../components/detail.vue')
+    component: () => import('../components/detail.vue'),
   },
   {
     path: '/',
