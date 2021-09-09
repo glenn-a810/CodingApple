@@ -1,16 +1,18 @@
 <template>
-  <div class="post">
-    <div class="post-header">
-      <div class="profile"></div>
-      <span class="profile-name">{{ postData[0].name }}</span>
-    </div>
-    <div class="post-body"></div>
-    <div class="post-content">
-      <p>{{ postData[0].likes }} Likes</p>
-      <p>
-        <strong>{{ postData[0].filter }}</strong> {{ postData[0].content }}
-      </p>
-      <p class="date">{{postData[0].date}}</p>
+  <div>
+    <div v-for="(postData, dataId) in postData" :key="dataId" class="post">
+      <div class="post-header">
+        <div class="profile"></div>
+        <span class="profile-name">{{ postData.name }}</span>
+      </div>
+      <div class="post-body"></div>
+      <div class="post-content">
+        <p>{{ postData.likes }} Likes</p>
+        <p>
+          <strong>{{ postData.filter }}</strong> {{ postData.content }}
+        </p>
+        <p class="date">{{ postData.date }}</p>
+      </div>
     </div>
   </div>
 </template>
