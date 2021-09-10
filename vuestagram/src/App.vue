@@ -11,6 +11,7 @@
     </div>
 
     <container :postData="postData" />
+    <button @click="more">more</button>
 
     <div class="footer">
       <ul class="footer-button-plus">
@@ -23,17 +24,30 @@
 
 <script>
 import container from './components/container.vue';
-import postData from './store/postData.js'
+import postData from './store/postData.js';
+import axios from 'axios';
 
 export default {
   name: 'App',
   data() {
     return {
       postData: postData,
-    }
+      moreCount: 0,
+    };
   },
   components: {
     container,
+  },
+  methods: {
+    more() {
+      axios
+        .get(`https://codingapple1.github.io/vue/more${this.moreCount}.json`)
+        .then((response) => {
+          // console.log(response.data);
+          this.postData.push(response.data);
+          this.moreCount += 1;
+        });
+    },
   },
 };
 </script>
