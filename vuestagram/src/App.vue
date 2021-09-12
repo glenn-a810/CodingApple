@@ -10,7 +10,7 @@
       <img src="./assets/logo.png" class="logo" />
     </div>
 
-    <container :postData="postData" />
+    <container :postData="postData" :step="step" />
     <button @click="more">more</button>
 
     <div class="footer">
@@ -39,7 +39,7 @@ export default {
   name: 'App',
   data() {
     return {
-      // step: 0,
+      step: 0,
       postData: postData,
       moreCount: 0,
     };
