@@ -15,7 +15,7 @@
 
     <div class="footer">
       <ul class="footer-button-plus">
-        <input type="file" id="file" class="inputfile" />
+        <input @change="upload" type="file" id="file" class="inputfile" />
         <label for="file" class="input-plus">+</label>
       </ul>
     </div>
@@ -57,6 +57,10 @@ export default {
           this.moreCount += 1;
         });
     },
+    upload(e) {
+      let image = e.target.files
+      console.log(image)
+    }
   },
 };
 </script>
