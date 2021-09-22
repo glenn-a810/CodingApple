@@ -5,12 +5,18 @@
         <li>Cancel</li>
       </ul>
       <ul class="header-button-right">
-        <li>Next</li>
+        <li v-if="step === 1" @click="step++">Next</li>
+        <li v-if="step === 2" @click="publish">Post</li>
       </ul>
       <img src="./assets/logo.png" class="logo" />
     </div>
 
-    <container :postData="postData" :step="step" />
+    <container
+      @write="write = $event"
+      :postData="postData"
+      :step="step"
+      :imageUrl="imageUrl"
+    />
     <button @click="more">more</button>
 
     <div class="footer">
@@ -42,6 +48,8 @@ export default {
       step: 0,
       postData: postData,
       moreCount: 0,
+      imageUrl: '',
+      write: '',
     };
   },
   components: {
@@ -58,9 +66,25 @@ export default {
         });
     },
     upload(e) {
-      let image = e.target.files
-      console.log(image)
-    }
+      let image = e.target.files;
+      let url = URL.createObjectURL(image[0]);
+      this.imageUrl = url;
+      this.step++;
+    },
+    publish() {
+      let contentPost = {
+        name: 'Glenn',
+        userImage: 'https://placeimg.com/100/100/animals',
+        postImage: this.imageUrl,
+        likes: 36,
+        date: 'Sep 23',
+        liked: false,
+        content: this.write,
+        filter: 'perpetua',
+      };
+      this.postData.unshift(contentPost);
+      this.step = 0;
+    },
   },
 };
 </script>

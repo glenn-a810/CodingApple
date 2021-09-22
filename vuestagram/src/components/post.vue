@@ -29,6 +29,7 @@ export default {
   },
   props: {
     postData: Object,
+    imageUrl: String,
   },
 };
 </script>
