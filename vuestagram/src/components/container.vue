@@ -10,21 +10,30 @@
 
     <!-- 필터선택페이지 -->
     <div v-if="step === 1">
-      <div class="upload-image" :style="`background-image: url(${imageUrl})`"></div>
+      <div
+        class="upload-image"
+        :style="`background-image: url(${imageUrl})`"
+      ></div>
       <div class="filters">
-        <div class="filter-1" :style="`background-image: url(${imageUrl})`"></div>
-        <div class="filter-1" :style="`background-image: url(${imageUrl})`"></div>
-        <div class="filter-1" :style="`background-image: url(${imageUrl})`"></div>
-        <div class="filter-1" :style="`background-image: url(${imageUrl})`"></div>
-        <div class="filter-1" :style="`background-image: url(${imageUrl})`"></div>
+        <filterbox
+          v-for="(filters, filterId) in filters"
+          :key="filterId"
+          :imageUrl="imageUrl"
+        ></filterbox>
       </div>
     </div>
 
     <!-- 글작성페이지 -->
     <div v-if="step === 2">
-      <div class="upload-image" :style="`background-image: url(${imageUrl})`"></div>
+      <div
+        class="upload-image"
+        :style="`background-image: url(${imageUrl})`"
+      ></div>
       <div class="write">
-        <textarea @input="$emit('write', $event.target.value)" class="write-box">write!</textarea>
+        <textarea
+          @input="$emit('write', $event.target.value)"
+          class="write-box"
+        />
       </div>
     </div>
   </div>
@@ -32,14 +41,45 @@
 
 <script>
 import post from './post.vue';
+import filterbox from './filterbox.vue';
 
 export default {
   name: 'container',
   data() {
-    return {};
+    return {
+      filters: [
+        'aden',
+        '_1977',
+        'brannan',
+        'brooklyn',
+        'clarendon',
+        'earlybird',
+        'gingham',
+        'hudson',
+        'inkwell',
+        'kelvin',
+        'lark',
+        'lofi',
+        'maven',
+        'mayfair',
+        'moon',
+        'nashville',
+        'perpetua',
+        'reyes',
+        'rise',
+        'slumber',
+        'stinson',
+        'toaster',
+        'valencia',
+        'walden',
+        'willow',
+        'xpro2',
+      ],
+    };
   },
   components: {
     post,
+    filterbox,
   },
   props: {
     postData: Array,
