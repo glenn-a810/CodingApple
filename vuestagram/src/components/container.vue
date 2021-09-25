@@ -19,6 +19,7 @@
           v-for="(filters, filterId) in filters"
           :key="filterId"
           :imageUrl="imageUrl"
+          :filterId="filters"
         ></filterbox>
       </div>
     </div>
