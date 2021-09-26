@@ -20,7 +20,9 @@
           :key="filterId"
           :imageUrl="imageUrl"
           :filterId="filters"
-        ></filterbox>
+        >
+          <span>{{filters}}</span>
+        </filterbox>
       </div>
     </div>
 
