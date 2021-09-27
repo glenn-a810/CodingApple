@@ -50,6 +50,7 @@ export default {
       moreCount: 0,
       imageUrl: '',
       write: '',
+      filters: '',
     };
   },
   components: {
