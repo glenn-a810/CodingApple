@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuedongsan/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +63,7 @@
       <workItem from="1638544607457" duration="234000" />
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
-      <workItem from="1638545432645" duration="2496000" />
+      <workItem from="1638545432645" duration="8679000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -81,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638544639981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기">
+      <created>1638609206624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638609206624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기">
+      <created>1638609229299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638609229299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +95,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="project reset" />
+    <MESSAGE value="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
