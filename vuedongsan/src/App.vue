@@ -6,22 +6,34 @@
   </div>
 
   <div>
+    <img src="./assets/room0.jpg" alt="room0" class="room-img" />
     <h4>{{ products[0] }}</h4>
     <p>{{ price[0] }}만원</p>
+    <button @click="increment(0)">허위매물신고</button>
+    <span> 신고수 : {{ reportCount[0] }}</span>
   </div>
   <div>
+    <img src="./assets/room1.jpg" alt="room1" class="room-img" />
     <h4>{{ products[1] }}</h4>
     <p>{{ price[1] }}만원</p>
+    <button @click="increment(1)">허위매물신고</button>
+    <span> 신고수 : {{ reportCount[1] }}</span>
   </div>
   <div>
+    <img src="./assets/room2.jpg" alt="room2" class="room-img" />
     <h4>{{ products[2] }}</h4>
     <p>{{ price[2] }}만원</p>
+    <button @click="increment(2)">허위매물신고</button>
+    <span> 신고수 : {{ reportCount[2] }}</span>
   </div>
 
   <hr />
 
-  <div>
-
+  <div v-for="(productsTitle, i) in products" :key="i">
+    <h4>{{ productsTitle }}</h4>
+    <p>{{ price[i] }}만원</p>
+    <button @click="increment(i)">허위매물신고</button>
+    <span> 신고수 : {{reportCount[i]}}</span>
   </div>
 </template>
 
@@ -32,7 +44,13 @@ export default {
     products: ["삼평동 원룸", "백현동 원룸", "판교동 원룸"],
     price: ["60", "70", "80"],
     menus: ["Home", "Products", "About"],
+    reportCount: [0, 0, 0],
   }),
+  methods: {
+    increment(n) {
+      this.reportCount[n]++
+    },
+  },
   components: {},
 };
 </script>
@@ -57,5 +75,9 @@ export default {
 .menu a {
   color: white;
   padding: 10px;
+}
+.room-img {
+  width: 100%;
+  margin-top: 40px;
 }
 </style>
