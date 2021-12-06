@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/room0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/room1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/room2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
     </list>
@@ -66,7 +63,8 @@
       <workItem from="1638544607457" duration="234000" />
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
-      <workItem from="1638545432645" duration="12392000" />
+      <workItem from="1638545432645" duration="15459000" />
+      <workItem from="1638792129833" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638709627141</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v-for 까지 헷갈릴줄이야..미쳤네">
+      <created>1638712645348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638712645348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
