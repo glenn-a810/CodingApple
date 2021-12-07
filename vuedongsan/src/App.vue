@@ -57,11 +57,11 @@ export default {
     reportCount: [0, 0, 0, 0, 0, 0],
     modalState: false,
   }),
-  methods: {
-    increment(n) {
-      this.reportCount[n]++;
-    },
-  },
+  // methods: {
+  //   increment(n) {
+  //     this.reportCount[n]++;
+  //   },
+  // },
   components: {},
 };
 </script>

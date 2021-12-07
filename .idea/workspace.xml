@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/roomData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
     </list>
@@ -19,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,7 +72,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="7171000" />
+      <workItem from="1638792129833" duration="9128000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638801542883</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'">
+      <created>1638881092472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881092472</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +142,8 @@
     <MESSAGE value="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기" />
     <MESSAGE value="v-for 까지 헷갈릴줄이야..미쳤네" />
     <MESSAGE value="v-if는 다행히 안까먹었군" />
-    <option name="LAST_COMMIT_MESSAGE" value="v-if는 다행히 안까먹었군" />
+    <MESSAGE value="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
