@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuedongsan/src/assets/roomData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
     </list>
@@ -9,6 +10,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +72,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="2514000" />
+      <workItem from="1638792129833" duration="7171000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -108,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638712645348</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v-if는 다행히 안까먹었군">
+      <created>1638801542883</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638801542883</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +134,8 @@
     <MESSAGE value="project reset" />
     <MESSAGE value="강좌 다시 빠르게 보면서 리마인드 + vue3기준으로 다시 보기" />
     <MESSAGE value="v-for 까지 헷갈릴줄이야..미쳤네" />
-    <option name="LAST_COMMIT_MESSAGE" value="v-for 까지 헷갈릴줄이야..미쳤네" />
+    <MESSAGE value="v-if는 다행히 안까먹었군" />
+    <option name="LAST_COMMIT_MESSAGE" value="v-if는 다행히 안까먹었군" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
