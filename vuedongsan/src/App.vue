@@ -1,8 +1,10 @@
 <template>
   <div v-if="modalState === true" class="black-bg">
     <div class="white-bg">
-      <h4>상태창</h4>
-      <p>상세페이지 내용</p>
+      <img :src="products[productsId].image" alt="image" class="room-img" />
+      <h4>{{ products[productsId].title }}</h4>
+      <p>{{ products[productsId].content }}</p>
+      <p>{{ products[productsId].price }}만원</p>
       <button @click="modalState = false">닫기</button>
     </div>
   </div>
@@ -13,33 +15,16 @@
     </a>
   </div>
 
-  <!--  <div>-->
-  <!--    <img src="./assets/room0.jpg" alt="room0" class="room-img" />-->
-  <!--    <h4 @click="modalState = true">{{ products[0] }}</h4>-->
-  <!--    <p>{{ price[0] }}만원</p>-->
-  <!--    <button @click="increment(0)">허위매물신고</button>-->
-  <!--    <span> 신고수 : {{ reportCount[0] }}</span>-->
-  <!--  </div>-->
-  <!--  <div>-->
-  <!--    <img src="./assets/room1.jpg" alt="room1" class="room-img" />-->
-  <!--    <h4 @click="modalState = true">{{ products[1] }}</h4>-->
-  <!--    <p>{{ price[1] }}만원</p>-->
-  <!--    <button @click="increment(1)">허위매물신고</button>-->
-  <!--    <span> 신고수 : {{ reportCount[1] }}</span>-->
-  <!--  </div>-->
-  <!--  <div>-->
-  <!--    <img src="./assets/room2.jpg" alt="room2" class="room-img" />-->
-  <!--    <h4 @click="modalState = true">{{ products[2] }}</h4>-->
-  <!--    <p>{{ price[2] }}만원</p>-->
-  <!--    <button @click="increment(2)">허위매물신고</button>-->
-  <!--    <span> 신고수 : {{ reportCount[2] }}</span>-->
-  <!--  </div>-->
-
-  <!--  <hr />-->
-
   <div v-for="rooms in products" :key="rooms.id">
     <img :src="rooms.image" alt="image" class="room-img" />
-    <h4 @click="modalState = true">{{ rooms.title }}</h4>
+    <h4
+      @click="
+        modalState = true;
+        productsId = rooms.id;
+      "
+    >
+      {{ rooms.title }}
+    </h4>
     <p>{{ rooms.price }}만원</p>
   </div>
 </template>
@@ -50,11 +35,10 @@ import roomData from "./assets/roomData";
 export default {
   name: "App",
   data: () => ({
-    // products: ["삼평동 원룸", "백현동 원룸", "판교동 원룸"],
     products: roomData,
-    price: ["60", "70", "80"],
+    productsId: 0,
     menus: ["Home", "Products", "About"],
-    reportCount: [0, 0, 0, 0, 0, 0],
+    // reportCount: [0, 0, 0, 0, 0, 0],
     modalState: false,
   }),
   // methods: {

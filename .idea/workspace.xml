@@ -72,7 +72,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="9128000" />
+      <workItem from="1638792129833" duration="12782000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -130,11 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638881092472</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'">
+      <created>1638887676855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638887676855</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
