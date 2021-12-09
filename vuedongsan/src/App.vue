@@ -1,19 +1,23 @@
 <template>
-  <div v-if="modalState === true" class="black-bg">
-    <div class="white-bg">
-      <img :src="products[productsId].image" alt="image" class="room-img" />
-      <h4>{{ products[productsId].title }}</h4>
-      <p>{{ products[productsId].content }}</p>
-      <p>{{ products[productsId].price }}만원</p>
-      <button @click="modalState = false">닫기</button>
-    </div>
-  </div>
+  <!--  <div v-if="modalState === true" class="black-bg">-->
+  <!--    <div class="white-bg">-->
+  <!--      <img :src="products[productsId].image" alt="image" class="room-img" />-->
+  <!--      <h4>{{ products[productsId].title }}</h4>-->
+  <!--      <p>{{ products[productsId].content }}</p>-->
+  <!--      <p>{{ products[productsId].price }}만원</p>-->
+  <!--      <button @click="modalState = false">닫기</button>-->
+  <!--      <Discount />-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <Modal />
 
   <div class="menu">
     <a v-for="menuTitle in menus" :key="menuTitle">
       {{ menuTitle }}
     </a>
   </div>
+
+  <Discount />
 
   <div v-for="rooms in products" :key="rooms.id">
     <img :src="rooms.image" alt="image" class="room-img" />
@@ -31,6 +35,8 @@
 
 <script>
 import roomData from "./assets/roomData";
+import Discount from "@/components/Discount";
+import Modal from "@/components/Modal";
 
 export default {
   name: "App",
@@ -46,7 +52,10 @@ export default {
   //     this.reportCount[n]++;
   //   },
   // },
-  components: {},
+  components: {
+    Discount,
+    Modal,
+  },
 };
 </script>
 
