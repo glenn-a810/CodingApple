@@ -9,7 +9,11 @@
   <!--      <Discount />-->
   <!--    </div>-->
   <!--  </div>-->
-  <Modal />
+  <Modal
+    :products="products"
+    :productsId="productsId"
+    :modalState="modalState"
+  />
 
   <div class="menu">
     <a v-for="menuTitle in menus" :key="menuTitle">

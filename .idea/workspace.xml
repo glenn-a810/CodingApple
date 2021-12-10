@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/components/Discount.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="16633000" />
+      <workItem from="1638792129833" duration="19722000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638972451562</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="component도 다 까먹었네 새까맣게..">
+      <created>1639046382105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639046382105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="v-if는 다행히 안까먹었군" />
     <MESSAGE value="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'" />
     <MESSAGE value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
+    <MESSAGE value="component도 다 까먹었네 새까맣게.." />
+    <option name="LAST_COMMIT_MESSAGE" value="component도 다 까먹었네 새까맣게.." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
