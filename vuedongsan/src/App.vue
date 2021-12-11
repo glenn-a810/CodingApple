@@ -23,24 +23,26 @@
 
   <Discount />
 
-  <div v-for="rooms in products" :key="rooms.id">
-    <img :src="rooms.image" alt="image" class="room-img" />
-    <h4
-      @click="
-        modalState = true;
-        productsId = rooms.id;
-      "
-    >
-      {{ rooms.title }}
-    </h4>
-    <p>{{ rooms.price }}만원</p>
-  </div>
+  <!--  <div v-for="rooms in products" :key="rooms.id">-->
+  <!--    <img :src="rooms.image" alt="image" class="room-img" />-->
+  <!--    <h4-->
+  <!--      @click="-->
+  <!--        modalState = true;-->
+  <!--        productsId = rooms.id;-->
+  <!--      "-->
+  <!--    >-->
+  <!--      {{ rooms.title }}-->
+  <!--    </h4>-->
+  <!--    <p>{{ rooms.price }}만원</p>-->
+  <!--  </div>-->
+  <List :products="products" :productsId="productsId" />
 </template>
 
 <script>
 import roomData from "./assets/roomData";
 import Discount from "@/components/Discount";
 import Modal from "@/components/Modal";
+import List from "@/components/List";
 
 export default {
   name: "App",
@@ -59,6 +61,7 @@ export default {
   components: {
     Discount,
     Modal,
+    List,
   },
 };
 </script>
