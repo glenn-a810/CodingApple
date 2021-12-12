@@ -35,7 +35,7 @@
   <!--    </h4>-->
   <!--    <p>{{ rooms.price }}만원</p>-->
   <!--  </div>-->
-  <List :products="products" :productsId="productsId" />
+  <List v-for="(rooms,i) in products" :key="rooms" :products="products[i]" />
 </template>
 
 <script>

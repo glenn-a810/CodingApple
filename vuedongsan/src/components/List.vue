@@ -1,6 +1,6 @@
 <template>
-  <div v-for="rooms in products" :key="rooms.id">
-    <img :src="rooms.image" alt="image" class="room-img" />
+  <div>
+    <img :src="products.image" alt="image" class="room-img" />
     <!--    <h4-->
     <!--      @click="-->
     <!--        modalState = true;-->
@@ -8,9 +8,9 @@
     <!--      "-->
     <!--    >-->
     <h4>
-      {{ rooms.title }}
+      {{ products.title }}
     </h4>
-    <p>{{ rooms.price }}만원</p>
+    <p>{{ products.price }}만원</p>
   </div>
 </template>
 
@@ -18,8 +18,7 @@
 export default {
   name: "List",
   props: {
-    products: Array,
-    productsId: Number,
+    products: Object,
   },
 };
 </script>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="23385000" />
+      <workItem from="1638792129833" duration="28313000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639146686990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="props로 목록 뿌리기. 일단 event는 빼고">
+      <created>1639225595742</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639225595742</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +193,8 @@
     <MESSAGE value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
     <MESSAGE value="component도 다 까먹었네 새까맣게.." />
     <MESSAGE value="props 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="props 복습" />
+    <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
+    <option name="LAST_COMMIT_MESSAGE" value="props로 목록 뿌리기. 일단 event는 빼고" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
