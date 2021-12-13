@@ -13,6 +13,7 @@
     :products="products"
     :productsId="productsId"
     :modalState="modalState"
+    @closeButton="modalState = false"
   />
 
   <div class="menu">
@@ -35,7 +36,15 @@
   <!--    </h4>-->
   <!--    <p>{{ rooms.price }}만원</p>-->
   <!--  </div>-->
-  <List v-for="(rooms,i) in products" :key="rooms" :products="products[i]" />
+  <List
+    v-for="(rooms, i) in products"
+    :key="rooms"
+    :products="products[i]"
+    @openModal="
+      modalState = true;
+      productsId = $event;
+    "
+  />
 </template>
 
 <script>

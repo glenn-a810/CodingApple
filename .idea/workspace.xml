@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="28313000" />
+      <workItem from="1638792129833" duration="36533000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639225595742</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임">
+      <created>1639314726609</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639314726609</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +202,8 @@
     <MESSAGE value="component도 다 까먹었네 새까맣게.." />
     <MESSAGE value="props 복습" />
     <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
-    <option name="LAST_COMMIT_MESSAGE" value="props로 목록 뿌리기. 일단 event는 빼고" />
+    <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
+    <option name="LAST_COMMIT_MESSAGE" value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

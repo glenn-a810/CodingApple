@@ -7,7 +7,7 @@
     <!--        productsId = rooms.id;-->
     <!--      "-->
     <!--    >-->
-    <h4>
+    <h4 @click="openModal">
       {{ products.title }}
     </h4>
     <p>{{ products.price }}만원</p>
@@ -20,6 +20,11 @@ export default {
   props: {
     products: Object,
   },
+  methods: {
+    openModal() {
+      this.$emit('openModal', this.products.id)
+    }
+  }
 };
 </script>
 

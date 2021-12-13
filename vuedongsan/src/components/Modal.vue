@@ -5,7 +5,7 @@
       <h4>{{ products[productsId].title }}</h4>
       <p>{{ products[productsId].content }}</p>
       <p>{{ products[productsId].price }}만원</p>
-      <!--      <button @click="modalState = false">닫기</button>-->
+      <button @click="$emit('closeButton')">닫기</button>
     </div>
   </div>
 </template>
