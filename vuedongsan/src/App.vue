@@ -13,7 +13,7 @@
     :products="products"
     :productsId="productsId"
     :modalState="modalState"
-    @closeButton="modalState = false"
+    @closeModal="modalState = false"
   />
 
   <div class="menu">

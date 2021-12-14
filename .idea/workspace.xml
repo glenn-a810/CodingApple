@@ -4,7 +4,6 @@
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="36533000" />
+      <workItem from="1638792129833" duration="40011000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639314726609</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음">
+      <created>1639403557865</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639403557865</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +209,8 @@
     <MESSAGE value="props 복습" />
     <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
     <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
-    <option name="LAST_COMMIT_MESSAGE" value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
+    <MESSAGE value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
