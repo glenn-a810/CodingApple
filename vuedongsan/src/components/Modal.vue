@@ -25,6 +25,13 @@ export default {
       months: 1,
     };
   },
+  watch: {
+    months(m) {
+      if (isNaN(m) === true) {
+        alert("숫자만 입력할 수 있습니다.");
+      }
+    },
+  },
   props: {
     products: Array,
     productsId: Number,
