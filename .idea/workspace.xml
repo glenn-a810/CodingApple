@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,8 @@
       <workItem from="1638544850225" duration="62000" />
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
-      <workItem from="1638792129833" duration="41288000" />
+      <workItem from="1638792129833" duration="42686000" />
+      <workItem from="1639657316844" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -187,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639480016946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a.">
+      <created>1639576078242</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639576078242</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +225,8 @@
     <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
     <MESSAGE value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
     <MESSAGE value="입력 정보를 받기 위해 @input에 e.target.value와 같은 형식으로 받거나 v-model을 사용해서 받을 수 있음." />
-    <option name="LAST_COMMIT_MESSAGE" value="입력 정보를 받기 위해 @input에 e.target.value와 같은 형식으로 받거나 v-model을 사용해서 받을 수 있음." />
+    <MESSAGE value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
+    <option name="LAST_COMMIT_MESSAGE" value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

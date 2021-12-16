@@ -9,12 +9,24 @@
   <!--      <Discount />-->
   <!--    </div>-->
   <!--  </div>-->
-  <Modal
-    :products="products"
-    :productsId="productsId"
-    :modalState="modalState"
-    @closeModal="modalState = false"
-  />
+
+<!--  <div class="start" :class="{ end: modalState }">-->
+<!--    <Modal-->
+<!--      :products="products"-->
+<!--      :productsId="productsId"-->
+<!--      :modalState="modalState"-->
+<!--      @closeModal="modalState = false"-->
+<!--    />-->
+<!--  </div>-->
+
+  <transition name="fade">
+    <Modal
+        :products="products"
+        :productsId="productsId"
+        :modalState="modalState"
+        @closeModal="modalState = false"
+    />
+  </transition>
 
   <div class="menu">
     <a v-for="menuTitle in menus" :key="menuTitle">
@@ -124,4 +136,36 @@ div {
   border-radius: 8px;
   padding: 20px;
 }
+
+/*.start {*/
+/*  opacity: 0;*/
+/*  transition: all 1s;*/
+/*}*/
+
+/*.end {*/
+/*  opacity: 1;*/
+/*}*/
+
+.fade-enter-from {
+  /*opacity: 0;*/
+  transform: translateY(-1000px);
+}
+.fade-enter-active {
+  transition: all 1s;
+}
+.fade-enter-to {
+  /*opacity: 1;*/
+  transform: translateY(0px);
+}
+
+.fade-leave-from {
+  opacity: 1;
+}
+.fade-leave-active {
+  transition: all 1s;
+}
+.fade-leave-to {
+  opacity: 0;
+}
+
 </style>
