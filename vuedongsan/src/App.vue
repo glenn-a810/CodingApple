@@ -10,21 +10,21 @@
   <!--    </div>-->
   <!--  </div>-->
 
-<!--  <div class="start" :class="{ end: modalState }">-->
-<!--    <Modal-->
-<!--      :products="products"-->
-<!--      :productsId="productsId"-->
-<!--      :modalState="modalState"-->
-<!--      @closeModal="modalState = false"-->
-<!--    />-->
-<!--  </div>-->
+  <!--  <div class="start" :class="{ end: modalState }">-->
+  <!--    <Modal-->
+  <!--      :products="products"-->
+  <!--      :productsId="productsId"-->
+  <!--      :modalState="modalState"-->
+  <!--      @closeModal="modalState = false"-->
+  <!--    />-->
+  <!--  </div>-->
 
   <transition name="fade">
     <Modal
-        :products="products"
-        :productsId="productsId"
-        :modalState="modalState"
-        @closeModal="modalState = false"
+      :products="products"
+      :productsId="productsId"
+      :modalState="modalState"
+      @closeModal="modalState = false"
     />
   </transition>
 
@@ -35,6 +35,9 @@
   </div>
 
   <Discount />
+
+  <button @click="priceSort">가격순정렬</button>
+  <button @click="sortInit">초기화</button>
 
   <!--  <div v-for="rooms in products" :key="rooms.id">-->
   <!--    <img :src="rooms.image" alt="image" class="room-img" />-->
@@ -68,17 +71,23 @@ import List from "@/components/List";
 export default {
   name: "App",
   data: () => ({
+    productsOriginal: [...roomData],
     products: roomData,
     productsId: 0,
     menus: ["Home", "Products", "About"],
     // reportCount: [0, 0, 0, 0, 0, 0],
     modalState: false,
   }),
-  // methods: {
-  //   increment(n) {
-  //     this.reportCount[n]++;
-  //   },
-  // },
+  methods: {
+    priceSort() {
+      this.products.sort(function (a, b) {
+        return a.price - b.price;
+      });
+    },
+    sortInit() {
+      this.products = [...this.productsOriginal];
+    },
+  },
   components: {
     Discount,
     Modal,
@@ -167,5 +176,4 @@ div {
 .fade-leave-to {
   opacity: 0;
 }
-
 </style>

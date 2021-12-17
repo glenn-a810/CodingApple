@@ -74,7 +74,7 @@
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
       <workItem from="1638792129833" duration="42686000" />
-      <workItem from="1639657316844" duration="1758000" />
+      <workItem from="1639657316844" duration="6065000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639576078242</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술..">
+      <created>1639659315295</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639659315296</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +233,8 @@
     <MESSAGE value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
     <MESSAGE value="입력 정보를 받기 위해 @input에 e.target.value와 같은 형식으로 받거나 v-model을 사용해서 받을 수 있음." />
     <MESSAGE value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
-    <option name="LAST_COMMIT_MESSAGE" value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
+    <MESSAGE value="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술.." />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술.." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
