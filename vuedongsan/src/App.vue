@@ -34,7 +34,7 @@
     </a>
   </div>
 
-  <Discount />
+  <Discount v-if="showDiscount === true" :discountRate="discountRate" />
 
   <button @click="priceSort">가격순정렬</button>
   <button @click="sortInit">초기화</button>
@@ -77,6 +77,8 @@ export default {
     menus: ["Home", "Products", "About"],
     // reportCount: [0, 0, 0, 0, 0, 0],
     modalState: false,
+    showDiscount: true,
+    discountRate: 30,
   }),
   methods: {
     priceSort() {
@@ -87,6 +89,16 @@ export default {
     sortInit() {
       this.products = [...this.productsOriginal];
     },
+  },
+  mounted() {
+    setInterval(() => {
+      if (this.discountRate === 0) {
+        this.showDiscount = false;
+      } else {
+        this.discountRate--;
+      }
+      // this.discountRate--;
+    }, 1000);
   },
   components: {
     Discount,

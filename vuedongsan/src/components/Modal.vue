@@ -32,6 +32,12 @@ export default {
       }
     },
   },
+  beforeUpdate() {
+    if (this.months === '2') {
+      alert("2가 입력되었다");
+      this.months = 1
+    }
+  },
   props: {
     products: Array,
     productsId: Number,
