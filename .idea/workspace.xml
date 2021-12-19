@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuelog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuedongsan/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Discount.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Discount.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuedongsan/src/components/Modal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuedongsan/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuelog/package.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,7 +61,7 @@
   </component>
   <component name="RunManager">
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/vuedongsan/package.json" />
+      <package-json value="$PROJECT_DIR$/vuelog/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -76,7 +85,7 @@
       <workItem from="1638544920603" duration="502000" />
       <workItem from="1638545432645" duration="15459000" />
       <workItem from="1638792129833" duration="42686000" />
-      <workItem from="1639657316844" duration="9694000" />
+      <workItem from="1639657316844" duration="12929000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -211,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639741088934</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드">
+      <created>1639834097187</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639834097187</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +260,8 @@
     <MESSAGE value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
     <MESSAGE value="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술.." />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드" />
+    <option name="LAST_COMMIT_MESSAGE" value="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
