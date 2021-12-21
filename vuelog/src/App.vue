@@ -62,22 +62,26 @@
     </nav>
   </div>
 
-  <div class="card" style="width: 18rem">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+  <div class="container mt-4">
+    <h5>Vue test site</h5>
+    <p>vue 3.0</p>
   </div>
+
+  <List :contents="contents" />
 </template>
 
 <script>
+import Blog from "@/assets/blog";
+import List from "@/components/List";
+
 export default {
   name: "App",
-  components: {},
+  data: () => ({
+    contents: Blog,
+  }),
+  components: {
+    List,
+  },
 };
 </script>
 
