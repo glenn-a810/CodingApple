@@ -5,6 +5,10 @@ import Detail from "@/components/Detail";
 
 const routes = [
   {
+    path: "/detail/:id",
+    component: Detail,
+  },
+  {
     path: "/",
     component: Home,
   },

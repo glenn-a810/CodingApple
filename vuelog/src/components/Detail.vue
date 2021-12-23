@@ -1,16 +1,18 @@
 <template>
   <div>
-    <h5>Detail Page</h5>
-    <p>상세페이지</p>
+    <h4>Detail Page</h4>
+    <h5>{{ contents[$route.params.id].title }}</h5>
+    <p>{{ contents[$route.params.id].content }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Detail.vue"
-}
+  name: "Detail.vue",
+  props: {
+    contents: Array,
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
