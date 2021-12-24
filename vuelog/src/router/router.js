@@ -7,18 +7,6 @@ import Comment from "@/components/Comment";
 
 const routes = [
   {
-    path: "/",
-    component: Home,
-  },
-  {
-    path: "/list",
-    component: List,
-  },
-  {
-    path: "/detail",
-    component: Detail,
-  },
-  {
     path: "/detail/:id",
     component: Detail,
     children: [
@@ -31,6 +19,18 @@ const routes = [
         component: Comment,
       },
     ],
+  },
+  {
+    path: "/",
+    component: Home,
+  },
+  {
+    path: "/list",
+    component: List,
+  },
+  {
+    path: "/detail",
+    component: Detail,
   },
 ];
 
