@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuelog/src/components/Author.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelog/src/components/Comment.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuelog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuelog/src/components/Detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/src/components/Detail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuelog/src/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/src/components/List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuelog/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +81,7 @@
       <workItem from="1639657316844" duration="13461000" />
       <workItem from="1639916540658" duration="1464000" />
       <workItem from="1639927086584" duration="338000" />
-      <workItem from="1639927440051" duration="12646000" />
+      <workItem from="1639927440051" duration="18000000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640180249752</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="router :parameter(라우터 파라메터)와 $route.params.XX  의 사용법">
+      <created>1640264727164</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1640264727164</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +304,8 @@
     <MESSAGE value="bootstrap 관련 function 사용 테스트" />
     <MESSAGE value="vue-route 쓸려고 빌드업 하는듯" />
     <MESSAGE value="vue-router 사용법 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue-router 사용법 복습" />
+    <MESSAGE value="router :parameter(라우터 파라메터)와 $route.params.XX  의 사용법" />
+    <option name="LAST_COMMIT_MESSAGE" value="router :parameter(라우터 파라메터)와 $route.params.XX  의 사용법" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
