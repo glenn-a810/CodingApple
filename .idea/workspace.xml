@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuestagram/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/assets/instaData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/components/Post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuelog/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +62,7 @@
   </component>
   <component name="RunManager">
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/vuelog/package.json" />
+      <package-json value="$PROJECT_DIR$/vuestagram/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -77,7 +89,8 @@
       <workItem from="1639657316844" duration="13461000" />
       <workItem from="1639916540658" duration="1464000" />
       <workItem from="1639927086584" duration="338000" />
-      <workItem from="1639927440051" duration="19887000" />
+      <workItem from="1639927440051" duration="20696000" />
+      <workItem from="1640519323354" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -275,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640352902910</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="router hash mode에 대해. URL에 #이 붙은채로 시작되는 주소가 되는데 #뒤에 있는 내용들은 절대 서버로 전달되지 않음. 서버가 라우팅을 채가는 일을 방지하고 Vue router에게 온전히 라우팅을 맡길 수 있음. Navigation guards도 알아둘 것">
+      <created>1640437461834</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1640437461834</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +337,8 @@
     <MESSAGE value="router :parameter(라우터 파라메터)와 $route.params.XX  의 사용법" />
     <MESSAGE value="$route는 현재 URL경로와 관련된 것 / $router는 페이지 이동과 관련된 것" />
     <MESSAGE value="routes는 순서에 따라 다르게 나타날 수 있으니 잘 생각해서 써야함. Nested routes와 named routes 등등 추가적인 기능들 있으니 따로 찾아볼 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="routes는 순서에 따라 다르게 나타날 수 있으니 잘 생각해서 써야함. Nested routes와 named routes 등등 추가적인 기능들 있으니 따로 찾아볼 것" />
+    <MESSAGE value="router hash mode에 대해. URL에 #이 붙은채로 시작되는 주소가 되는데 #뒤에 있는 내용들은 절대 서버로 전달되지 않음. 서버가 라우팅을 채가는 일을 방지하고 Vue router에게 온전히 라우팅을 맡길 수 있음. Navigation guards도 알아둘 것" />
+    <option name="LAST_COMMIT_MESSAGE" value="router hash mode에 대해. URL에 #이 붙은채로 시작되는 주소가 되는데 #뒤에 있는 내용들은 절대 서버로 전달되지 않음. 서버가 라우팅을 채가는 일을 방지하고 Vue router에게 온전히 라우팅을 맡길 수 있음. Navigation guards도 알아둘 것" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
