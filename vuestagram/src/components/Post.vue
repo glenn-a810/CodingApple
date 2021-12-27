@@ -2,15 +2,18 @@
   <div class="post">
     <div class="post-header">
       <div class="profile"></div>
-      <span class="profile-name">{{ postData[0].name }}</span>
+      <span class="profile-name">{{ postData.name }}</span>
     </div>
-    <div class="post-body"></div>
+    <div
+      class="post-body"
+      :style="{ backgroundImage: `url(${postData.postImage})` }"
+    ></div>
     <div class="post-content">
-      <p>{{ postData[0].likes }} Likes</p>
+      <p>{{ postData.likes }} Likes</p>
       <p>
-        <strong>{{ postData[0].name }}</strong> {{ postData[0].content }}
+        <strong>{{ postData.name }}</strong> {{ postData.content }}
       </p>
-      <p class="date">{{ postData[0].date }}</p>
+      <p class="date">{{ postData.date }}</p>
     </div>
   </div>
 </template>
@@ -19,7 +22,7 @@
 export default {
   name: "Post",
   props: {
-    postData: Array,
+    postData: Object,
   },
 };
 </script>
