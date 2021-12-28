@@ -9,7 +9,8 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <Container :postData="postData" />
+  <Container :postData="post" />
+  <button @click="more">더보기</button>
 
   <div class="footer">
     <ul class="footer-button-plus">
@@ -22,14 +23,29 @@
 <script>
 import Container from "@/components/Container";
 import postData from "@/assets/instaData";
+import axios from "axios";
 
 export default {
   name: "App",
   data: () => ({
-    postData: postData,
+    post: postData,
+    moreCount: 0,
   }),
   components: {
     Container,
+  },
+  methods: {
+    more() {
+      axios
+        .get(`https://codingapple1.github.io/vue/more${this.moreCount}.json`)
+        .then((res) => {
+          this.post.push(res.data);
+          this.moreCount++;
+        })
+        .catch((e) => {
+          console.log(e);
+        });
+    },
   },
 };
 </script>
