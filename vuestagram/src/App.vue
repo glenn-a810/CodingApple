@@ -9,7 +9,8 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <Container :postData="post" />
+  <Container :step="step" :postData="post" />
+
   <button @click="more">더보기</button>
 
   <div class="footer">
@@ -18,6 +19,7 @@
       <label for="file" class="input-plus">+</label>
     </ul>
   </div>
+
 </template>
 
 <script>
@@ -30,6 +32,7 @@ export default {
   data: () => ({
     post: postData,
     moreCount: 0,
+    step: 0,
   }),
   components: {
     Container,

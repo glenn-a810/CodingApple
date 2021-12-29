@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuestagram/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,8 @@
       <workItem from="1639927086584" duration="338000" />
       <workItem from="1639927440051" duration="20696000" />
       <workItem from="1640519323354" duration="5180000" />
-      <workItem from="1640699140984" duration="2037000" />
+      <workItem from="1640699140984" duration="2135000" />
+      <workItem from="1640776842551" duration="2314000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -301,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640607356792</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="axios 사용. more로 더 불러오기에서 누를때마다 count++하는건 킹받지만 일단은..">
+      <created>1640701280779</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1640701280779</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +325,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="v-for 까지 헷갈릴줄이야..미쳤네" />
     <MESSAGE value="v-if는 다행히 안까먹었군" />
     <MESSAGE value="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'" />
     <MESSAGE value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
@@ -344,7 +349,8 @@
     <MESSAGE value="router hash mode에 대해. URL에 #이 붙은채로 시작되는 주소가 되는데 #뒤에 있는 내용들은 절대 서버로 전달되지 않음. 서버가 라우팅을 채가는 일을 방지하고 Vue router에게 온전히 라우팅을 맡길 수 있음. Navigation guards도 알아둘 것" />
     <MESSAGE value="vuestagram 새 프로젝트 세팅 / layout 설정 / porps 테스트" />
     <MESSAGE value="style 속성 바인딩. 이건 음.." />
-    <option name="LAST_COMMIT_MESSAGE" value="style 속성 바인딩. 이건 음.." />
+    <MESSAGE value="axios 사용. more로 더 불러오기에서 누를때마다 count++하는건 킹받지만 일단은.." />
+    <option name="LAST_COMMIT_MESSAGE" value="axios 사용. more로 더 불러오기에서 누를때마다 count++하는건 킹받지만 일단은.." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
