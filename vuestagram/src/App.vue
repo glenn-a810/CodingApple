@@ -13,13 +13,18 @@
 
   <button @click="more">더보기</button>
 
-  <div class="footer">
+  <div class="footer" :uploadImage="uploadImage">
     <ul class="footer-button-plus">
-      <input type="file" id="file" class="inputfile" />
+      <input
+        @change="upload"
+        accept="image/*"
+        type="file"
+        id="file"
+        class="inputfile"
+      />
       <label for="file" class="input-plus">+</label>
     </ul>
   </div>
-
 </template>
 
 <script>
@@ -33,6 +38,7 @@ export default {
     post: postData,
     moreCount: 0,
     step: 0,
+    uploadImage: "",
   }),
   components: {
     Container,
@@ -48,6 +54,13 @@ export default {
         .catch((e) => {
           console.log(e);
         });
+    },
+    upload(e) {
+      let uploadFile = e.target.files;
+      console.log(uploadFile[0]);
+      this.uploadImage = URL.createObjectURL(uploadFile[0]);
+      this.step = 1;
+      console.log(this.uploadImage);
     },
   },
 };
