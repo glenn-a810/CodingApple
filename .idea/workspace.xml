@@ -82,7 +82,8 @@
       <workItem from="1640519323354" duration="5180000" />
       <workItem from="1640699140984" duration="2135000" />
       <workItem from="1640776842551" duration="4095000" />
-      <workItem from="1640869264984" duration="2810000" />
+      <workItem from="1640869264984" duration="3063000" />
+      <workItem from="1640952192087" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -315,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640780960866</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼">
+      <created>1640872791285</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1640872791285</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +341,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HTML태그안의 속성데이터 바인딩은 ':속성', 내용 데이터바인딩은 '{{데이터}}'" />
     <MESSAGE value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
     <MESSAGE value="component도 다 까먹었네 새까맣게.." />
     <MESSAGE value="props 복습" />
@@ -358,7 +365,8 @@
     <MESSAGE value="style 속성 바인딩. 이건 음.." />
     <MESSAGE value="axios 사용. more로 더 불러오기에서 누를때마다 count++하는건 킹받지만 일단은.." />
     <MESSAGE value="tap 만들기. 화면 자체를 tap처럼 만들어 쓰기. 근데 router있으면 딱히..?" />
-    <option name="LAST_COMMIT_MESSAGE" value="tap 만들기. 화면 자체를 tap처럼 만들어 쓰기. 근데 router있으면 딱히..?" />
+    <MESSAGE value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

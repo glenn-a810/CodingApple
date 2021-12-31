@@ -21,13 +21,18 @@
 
     <!-- 글작성페이지 -->
     <div v-if="step === 2">
-      <div class="upload-image"></div>
+      <div
+        class="upload-image"
+        :style="{ backgroundImage: `url(${uploadImage})` }"
+      ></div>
       <div class="write">
-        <textarea class="write-box">write!</textarea>
+        <textarea
+          @input="$emit('write', $event.target.value)"
+          class="write-box"
+        >write!</textarea>
       </div>
     </div>
   </div>
-  <button @click="imageURL">URL주소</button>
 </template>
 
 <script>
@@ -41,7 +46,7 @@ export default {
   props: {
     postData: Array,
     step: Number,
-    uploadImage: Text,
+    uploadImage: String,
   },
   methods: {
     imageURL() {

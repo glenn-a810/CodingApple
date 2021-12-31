@@ -1,19 +1,25 @@
 <template>
   <div class="header">
     <ul class="header-button-left">
-      <li>Cancel</li>
+      <li @click="step = 0">Cancel</li>
     </ul>
     <ul class="header-button-right">
-      <li>Next</li>
+      <li v-if="step !== 2" @click="step++">Next</li>
+      <li v-if="step === 2" @click="publish">Publish</li>
     </ul>
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <Container :step="step" :postData="post" />
+  <Container
+    :step="step"
+    :postData="post"
+    :uploadImage="uploadImage"
+    @write="writeData = $event"
+  />
 
   <button @click="more">더보기</button>
 
-  <div class="footer" :uploadImage="uploadImage">
+  <div class="footer">
     <ul class="footer-button-plus">
       <input
         @change="upload"
@@ -39,6 +45,7 @@ export default {
     moreCount: 0,
     step: 0,
     uploadImage: "",
+    writeData: "",
   }),
   components: {
     Container,
@@ -61,6 +68,20 @@ export default {
       this.uploadImage = URL.createObjectURL(uploadFile[0]);
       this.step = 1;
       console.log(this.uploadImage);
+    },
+    publish() {
+      let newPost = {
+        name: "Glenn",
+        userImage: "https://placeimg.com/100/100/arch",
+        postImage: this.uploadImage,
+        likes: 36,
+        date: "May 15",
+        liked: false,
+        content: this.writeData,
+        filter: "perpetua",
+      };
+      this.post.unshift(newPost);
+      this.step = 0;
     },
   },
 };
