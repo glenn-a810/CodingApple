@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CodingApple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodingApple.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuelog/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +86,10 @@
       <workItem from="1640699140984" duration="2135000" />
       <workItem from="1640776842551" duration="4095000" />
       <workItem from="1640869264984" duration="3063000" />
-      <workItem from="1640952192087" duration="1724000" />
+      <workItem from="1640952192087" duration="1817000" />
+      <workItem from="1641016014746" duration="1851000" />
+      <workItem from="1641041445545" duration="1318000" />
+      <workItem from="1641042776727" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -323,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640872791285</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네">
+      <created>1640954000608</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1640954000609</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modal에서 id받아오기. 뭔가 방법이 이상함. roomData에 id가 있는데 저걸 또 data에 만들어서 id값을 넣는다고?" />
     <MESSAGE value="component도 다 까먹었네 새까맣게.." />
     <MESSAGE value="props 복습" />
     <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
@@ -366,7 +378,8 @@
     <MESSAGE value="axios 사용. more로 더 불러오기에서 누를때마다 count++하는건 킹받지만 일단은.." />
     <MESSAGE value="tap 만들기. 화면 자체를 tap처럼 만들어 쓰기. 근데 router있으면 딱히..?" />
     <MESSAGE value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
+    <MESSAGE value="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

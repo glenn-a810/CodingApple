@@ -8,14 +8,14 @@
     <div v-if="step === 1">
       <div
         class="upload-image"
-        :style="{ backgroundImage: `url(${uploadImage})` }"
+        :style="`background-image:url(${uploadImage})`"
       ></div>
       <div class="filters">
-        <div class="filter-1"></div>
-        <div class="filter-1"></div>
-        <div class="filter-1"></div>
-        <div class="filter-1"></div>
-        <div class="filter-1"></div>
+        <FilterBox
+          v-for="filterList in filters"
+          :key="filterList"
+          :uploadImage="uploadImage"
+        ></FilterBox>
       </div>
     </div>
 
@@ -29,7 +29,9 @@
         <textarea
           @input="$emit('write', $event.target.value)"
           class="write-box"
-        >write!</textarea>
+        >
+write!</textarea
+        >
       </div>
     </div>
   </div>
@@ -37,11 +39,45 @@
 
 <script>
 import Post from "@/components/Post";
+import FilterBox from "@/components/FilterBox";
 
 export default {
   name: "Container",
+  data() {
+    return {
+      filters: [
+        "aden",
+        "_1977",
+        "brannan",
+        "brooklyn",
+        "clarendon",
+        "earlybird",
+        "gingham",
+        "hudson",
+        "inkwell",
+        "kelvin",
+        "lark",
+        "lofi",
+        "maven",
+        "mayfair",
+        "moon",
+        "nashville",
+        "perpetua",
+        "reyes",
+        "rise",
+        "slumber",
+        "stinson",
+        "toaster",
+        "valencia",
+        "walden",
+        "willow",
+        "xpro2",
+      ],
+    };
+  },
   components: {
     Post,
+    FilterBox,
   },
   props: {
     postData: Array,
