@@ -15,7 +15,10 @@
           v-for="filterList in filters"
           :key="filterList"
           :uploadImage="uploadImage"
-        ></FilterBox>
+          :filter="filterList"
+        >
+          {{filterList}}
+        </FilterBox>
       </div>
     </div>
 

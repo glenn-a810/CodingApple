@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CodingApple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodingApple.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuelog/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,8 @@
       <workItem from="1640952192087" duration="1817000" />
       <workItem from="1641016014746" duration="1851000" />
       <workItem from="1641041445545" duration="1318000" />
-      <workItem from="1641042776727" duration="1279000" />
+      <workItem from="1641042776727" duration="3296000" />
+      <workItem from="1641110539043" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -336,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640954000609</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="않이 왜 css안되냐고">
+      <created>1641044152609</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1641044152609</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,9 +359,19 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="component도 다 까먹었네 새까맣게.." />
     <MESSAGE value="props 복습" />
     <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
     <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
@@ -379,7 +396,8 @@
     <MESSAGE value="tap 만들기. 화면 자체를 tap처럼 만들어 쓰기. 근데 router있으면 딱히..?" />
     <MESSAGE value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
     <MESSAGE value="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네" />
+    <MESSAGE value="않이 왜 css안되냐고" />
+    <option name="LAST_COMMIT_MESSAGE" value="않이 왜 css안되냐고" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
