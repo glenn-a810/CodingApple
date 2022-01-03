@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuelog/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuelog/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,8 @@
       <workItem from="1641016014746" duration="1851000" />
       <workItem from="1641041445545" duration="1318000" />
       <workItem from="1641042776727" duration="3296000" />
-      <workItem from="1641110539043" duration="2037000" />
+      <workItem from="1641110539043" duration="2394000" />
+      <workItem from="1641222349591" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -343,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641044152609</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="slot: html tag를 편하게 보낼 때, slot props: 하위데이터를 상위로 보낼 때, named slot: slot을 여러개 보낼 때">
+      <created>1641113344617</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1641113344617</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +377,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="props 복습" />
     <MESSAGE value="props로 목록 뿌리기. 일단 event는 빼고" />
     <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
     <MESSAGE value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
@@ -397,7 +401,8 @@
     <MESSAGE value="URL.createObjectURL()랑 FileReader()이거 중 하나써서 브라우저 내에서 이미지 업로드하고 조작하기. 뭐여 왜 안돼" />
     <MESSAGE value="custom event 사용하는 방법 다시 익히기. 쉬웠었던거 같은데 다시 하려니 헷갈리네" />
     <MESSAGE value="않이 왜 css안되냐고" />
-    <option name="LAST_COMMIT_MESSAGE" value="않이 왜 css안되냐고" />
+    <MESSAGE value="slot: html tag를 편하게 보낼 때, slot props: 하위데이터를 상위로 보낼 때, named slot: slot을 여러개 보낼 때" />
+    <option name="LAST_COMMIT_MESSAGE" value="slot: html tag를 편하게 보낼 때, slot props: 하위데이터를 상위로 보낼 때, named slot: slot을 여러개 보낼 때" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
