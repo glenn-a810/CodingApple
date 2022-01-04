@@ -17,7 +17,8 @@
     @write="writeData = $event"
   />
 
-  <button @click="more">더보기</button>
+  <button v-if="step === 0" @click="more">더보기</button>
+  <button @click="log">emitter</button>
 
   <div class="footer">
     <ul class="footer-button-plus">
@@ -40,17 +41,28 @@ import axios from "axios";
 
 export default {
   name: "App",
-  data: () => ({
-    post: postData,
-    moreCount: 0,
-    step: 0,
-    uploadImage: "",
-    writeData: "",
-  }),
+  data() {
+    return {
+      post: postData,
+      moreCount: 0,
+      step: 0,
+      uploadImage: "",
+      writeData: "",
+      selectedFilter: "",
+    };
+  },
+  mounted() {
+    this.emitter.on("selectFilter", (selectFilter) => {
+      this.selectedFilter = selectFilter;
+    });
+  },
   components: {
     Container,
   },
   methods: {
+    log() {
+      console.log(this.selectedFilter);
+    },
     more() {
       axios
         .get(`https://codingapple1.github.io/vue/more${this.moreCount}.json`)

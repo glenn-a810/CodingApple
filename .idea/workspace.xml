@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/assets/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Post.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +93,8 @@
       <workItem from="1641041445545" duration="1318000" />
       <workItem from="1641042776727" duration="3296000" />
       <workItem from="1641110539043" duration="2394000" />
-      <workItem from="1641222349591" duration="109000" />
+      <workItem from="1641222349591" duration="272000" />
+      <workItem from="1641299432169" duration="1826000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -354,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641222412827</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="filter를 slot으로 따로 작업하는건 안되었다">
+      <created>1641222465208</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1641222465208</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

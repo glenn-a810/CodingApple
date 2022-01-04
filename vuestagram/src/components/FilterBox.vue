@@ -3,7 +3,9 @@
     :class="filter + ' filter-item'"
     :style="`background-image: url(${uploadImage})`"
   >
-    <slot></slot>
+    <button @click="selectFilter">
+      <slot />
+    </button>
   </div>
 </template>
 
@@ -13,6 +15,11 @@ export default {
   props: {
     uploadImage: String,
     filter: String,
+  },
+  methods: {
+    selectFilter() {
+      this.emitter.emit('selectFilter', 'filter');
+    },
   },
 };
 </script>
