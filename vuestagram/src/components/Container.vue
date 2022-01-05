@@ -7,6 +7,7 @@
     <!-- 필터선택페이지 -->
     <div v-if="step === 1">
       <div
+        :class="selectedFilter"
         class="upload-image"
         :style="`background-image:url(${uploadImage})`"
       ></div>
@@ -17,7 +18,7 @@
           :uploadImage="uploadImage"
           :filter="filterList"
         >
-          {{filterList}}
+          {{ filterList }}
         </FilterBox>
       </div>
     </div>
@@ -25,6 +26,7 @@
     <!-- 글작성페이지 -->
     <div v-if="step === 2">
       <div
+        :class="selectedFilter"
         class="upload-image"
         :style="{ backgroundImage: `url(${uploadImage})` }"
       ></div>
@@ -76,6 +78,7 @@ export default {
         "willow",
         "xpro2",
       ],
+      selectedFilter: "",
     };
   },
   components: {
@@ -91,6 +94,11 @@ export default {
     imageURL() {
       console.log(this.uploadImage);
     },
+  },
+  mounted() {
+    this.emitter.on("selectFilter", (filter) => {
+      this.selectedFilter = filter;
+    });
   },
 };
 </script>

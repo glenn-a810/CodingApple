@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/FilterBox.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Post.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/yarn.lock" afterDir="false" />
     </list>
@@ -94,7 +95,8 @@
       <workItem from="1641042776727" duration="3296000" />
       <workItem from="1641110539043" duration="2394000" />
       <workItem from="1641222349591" duration="272000" />
-      <workItem from="1641299432169" duration="1826000" />
+      <workItem from="1641299432169" duration="1894000" />
+      <workItem from="1641387704318" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -369,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641222465208</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="mitt쓰기 뭐이리 어렵고 헷갈림;;">
+      <created>1641301310843</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1641301310843</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +407,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="component만들 때 잘 확인할것. v-for까지 다 묶어서 만들어버린 ㅂㅅ짓하면 나처럼 되벌임" />
     <MESSAGE value="custom event : $emit을 통해 부모 컴포넌트의 값을 변형. $emit('보낼이름',보낼변수) 부모 컴포넌트에서 @받은이름=&quot;변경 할 값&quot; / 보낸 변수는 $event로 값을 받음" />
     <MESSAGE value="입력 정보를 받기 위해 @input에 e.target.value와 같은 형식으로 받거나 v-model을 사용해서 받을 수 있음." />
     <MESSAGE value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
@@ -423,7 +431,8 @@
     <MESSAGE value="않이 왜 css안되냐고" />
     <MESSAGE value="slot: html tag를 편하게 보낼 때, slot props: 하위데이터를 상위로 보낼 때, named slot: slot을 여러개 보낼 때" />
     <MESSAGE value="filter를 slot으로 따로 작업하는건 안되었다" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter를 slot으로 따로 작업하는건 안되었다" />
+    <MESSAGE value="mitt쓰기 뭐이리 어렵고 헷갈림;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="mitt쓰기 뭐이리 어렵고 헷갈림;;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

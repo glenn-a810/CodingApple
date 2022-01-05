@@ -10,6 +10,9 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
+  <h4>Store test : {{ $store.state.test }}</h4>
+  <button @click="$store.state.test = 'MUTATED'">Mutate</button>
+
   <Container
     :step="step"
     :postData="post"
@@ -52,8 +55,8 @@ export default {
     };
   },
   mounted() {
-    this.emitter.on("selectFilter", (selectFilter) => {
-      this.selectedFilter = selectFilter;
+    this.emitter.on("selectFilter", (filter) => {
+      this.selectedFilter = filter;
     });
   },
   components: {
@@ -90,7 +93,7 @@ export default {
         date: "May 15",
         liked: false,
         content: this.writeData,
-        filter: "perpetua",
+        filter: this.selectedFilter,
       };
       this.post.unshift(newPost);
       this.step = 0;

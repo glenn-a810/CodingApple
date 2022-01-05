@@ -1,11 +1,10 @@
 <template>
   <div
+    @click="selectFilter"
     :class="filter + ' filter-item'"
     :style="`background-image: url(${uploadImage})`"
   >
-    <button @click="selectFilter">
-      <slot />
-    </button>
+    <slot />
   </div>
 </template>
 
@@ -18,7 +17,7 @@ export default {
   },
   methods: {
     selectFilter() {
-      this.emitter.emit('selectFilter', 'filter');
+      this.emitter.emit("selectFilter", this.filter);
     },
   },
 };
