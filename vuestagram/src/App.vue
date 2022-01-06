@@ -10,8 +10,8 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <h4>Store test : {{ $store.state.test }}</h4>
-  <button @click="$store.state.test = 'MUTATED'">Mutate</button>
+  <h4>Age : {{ $store.state.age }}</h4>
+  <button @click="$store.commit('changeAge', 10)">+</button>
 
   <Container
     :step="step"

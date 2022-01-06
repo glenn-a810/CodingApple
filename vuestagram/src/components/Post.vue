@@ -8,9 +8,11 @@
       :class="postData.filter"
       class="post-body"
       :style="{ backgroundImage: `url(${postData.postImage})` }"
+      @click="$store.commit('liked')"
     ></div>
     <div class="post-content">
-      <p>{{ postData.likes }} Likes</p>
+      <!--      <p>{{ postData.likes }} Likes</p>-->
+      <p>{{ $store.state.likes }} Likes</p>
       <p>
         <strong>{{ postData.name }}</strong> {{ postData.content }}
       </p>
