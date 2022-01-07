@@ -3,18 +3,18 @@ import { createStore } from "vuex";
 const store = createStore({
   state() {
     return {
-      likes: 30,
-      clickCount: 0,
+      likes: 0,
+      clickCount: false,
     };
   },
   mutations: {
     liked(state) {
-      if (state.clickCount === 0) {
-        state.likes += 1
-        state.clickCount += 1
+      if (state.clickCount === false) {
+        state.likes += 1;
+        state.clickCount = true;
       } else {
-        state.likes -= 1
-        state.clickCount = 0
+        state.likes -= 1;
+        state.clickCount = false;
       }
     },
   },
