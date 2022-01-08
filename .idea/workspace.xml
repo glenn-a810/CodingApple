@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vuelog/node_modules/prettier" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -92,7 +94,8 @@
       <workItem from="1641387704318" duration="3052000" />
       <workItem from="1641475258900" duration="1501000" />
       <workItem from="1641556713547" duration="32000" />
-      <workItem from="1641556762460" duration="757000" />
+      <workItem from="1641556762460" duration="790000" />
+      <workItem from="1641644132522" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -388,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641476753006</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="store에서 array id는 어떻게?">
+      <created>1641557542669</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1641557542669</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="watcher 사용법. data와 동일한 이름의 함수명을 사용하여 해당 데이터 사용 시 자동 실행.&#10;(a,b)으로 사용 시 변경 전 전 데이터는 b, 변경 후 데이터는 a." />
     <MESSAGE value="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술.." />
     <MESSAGE value="sort" />
     <MESSAGE value="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드" />
@@ -442,7 +451,8 @@
     <MESSAGE value="mitt쓰기 뭐이리 어렵고 헷갈림;;" />
     <MESSAGE value="mitt로 필터 적용 마무리 / vuex 설치, 맛보기" />
     <MESSAGE value="vuex 구조 및 사용법 / mutations, commit() 사용 방법 처음 알게되어씀 / 공통 state는 vuex의 store에서 관리하고 이를 변경할 때에는 store.js의 mutations를 통해서만 변경해야 나중에 골때리는 문제가 덜 생긴다." />
-    <option name="LAST_COMMIT_MESSAGE" value="vuex 구조 및 사용법 / mutations, commit() 사용 방법 처음 알게되어씀 / 공통 state는 vuex의 store에서 관리하고 이를 변경할 때에는 store.js의 mutations를 통해서만 변경해야 나중에 골때리는 문제가 덜 생긴다." />
+    <MESSAGE value="store에서 array id는 어떻게?" />
+    <option name="LAST_COMMIT_MESSAGE" value="store에서 array id는 어떻게?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

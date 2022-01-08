@@ -10,8 +10,8 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <h4>Age : {{ $store.state.age }}</h4>
-  <button @click="$store.commit('changeAge', 10)">+</button>
+  <p>{{ $store.state.more }}</p>
+  <button @click="$store.dispatch('getData')">more</button>
 
   <Container
     :step="step"
@@ -21,7 +21,6 @@
   />
 
   <button v-if="step === 0" @click="more">더보기</button>
-  <button @click="log">emitter</button>
 
   <div class="footer">
     <ul class="footer-button-plus">
