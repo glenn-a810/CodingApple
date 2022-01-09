@@ -20,7 +20,7 @@
     @write="writeData = $event"
   />
 
-  <button v-if="step === 0" @click="more">더보기</button>
+  <!--  <button v-if="step === 0" @click="more">더보기</button>-->
 
   <div class="footer">
     <ul class="footer-button-plus">
@@ -40,6 +40,7 @@
 import Container from "@/components/Container";
 import postData from "@/assets/instaData";
 import axios from "axios";
+import { mapMutations, mapState } from "vuex";
 
 export default {
   name: "App",
@@ -61,10 +62,11 @@ export default {
   components: {
     Container,
   },
+  computed: {
+    ...mapState(["likes"]),
+  },
   methods: {
-    log() {
-      console.log(this.selectedFilter);
-    },
+    ...mapMutations(["liked", "setMore"]),
     more() {
       axios
         .get(`https://codingapple1.github.io/vue/more${this.moreCount}.json`)

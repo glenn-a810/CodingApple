@@ -4,7 +4,6 @@
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,9 @@
       <workItem from="1641475258900" duration="1501000" />
       <workItem from="1641556713547" duration="32000" />
       <workItem from="1641556762460" duration="790000" />
-      <workItem from="1641644132522" duration="926000" />
+      <workItem from="1641644132522" duration="1153000" />
+      <workItem from="1641727993090" duration="18000" />
+      <workItem from="1641728022329" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -398,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641557542669</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함.">
+      <created>1641645264189</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1641645264189</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="CSS나 transition 태그로 애니메이션 하기. 이건 그냥 잡기술.." />
     <MESSAGE value="sort" />
     <MESSAGE value="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드" />
     <MESSAGE value="레이아웃 강좌를 위한 새 플젝 + bootstrap 설치" />
@@ -452,7 +459,8 @@
     <MESSAGE value="mitt로 필터 적용 마무리 / vuex 설치, 맛보기" />
     <MESSAGE value="vuex 구조 및 사용법 / mutations, commit() 사용 방법 처음 알게되어씀 / 공통 state는 vuex의 store에서 관리하고 이를 변경할 때에는 store.js의 mutations를 통해서만 변경해야 나중에 골때리는 문제가 덜 생긴다." />
     <MESSAGE value="store에서 array id는 어떻게?" />
-    <option name="LAST_COMMIT_MESSAGE" value="store에서 array id는 어떻게?" />
+    <MESSAGE value="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함." />
+    <option name="LAST_COMMIT_MESSAGE" value="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
