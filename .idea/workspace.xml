@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/android-chrome-maskable-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/android-chrome-maskable-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/msapplication-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/img/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuestagram/src/registerServiceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +115,8 @@
       <workItem from="1641556762460" duration="790000" />
       <workItem from="1641644132522" duration="1153000" />
       <workItem from="1641727993090" duration="18000" />
-      <workItem from="1641728022329" duration="1642000" />
+      <workItem from="1641728022329" duration="2612000" />
+      <workItem from="1641816770708" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -406,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641645264189</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="computed는 컴포넌트 로드 시 값을 저장했다가 불러옴. return필요. methods는 호출 할 때 마다 실행된다는 차이가 있음.">
+      <created>1641731995108</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1641731995108</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sort" />
     <MESSAGE value="Life Cycle hook 어디에 어떻게 쓰는지 다시 리마인드" />
     <MESSAGE value="레이아웃 강좌를 위한 새 플젝 + bootstrap 설치" />
     <MESSAGE value="아 @ 인식안되는거 극혐" />
@@ -460,7 +486,8 @@
     <MESSAGE value="vuex 구조 및 사용법 / mutations, commit() 사용 방법 처음 알게되어씀 / 공통 state는 vuex의 store에서 관리하고 이를 변경할 때에는 store.js의 mutations를 통해서만 변경해야 나중에 골때리는 문제가 덜 생긴다." />
     <MESSAGE value="store에서 array id는 어떻게?" />
     <MESSAGE value="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함." />
-    <option name="LAST_COMMIT_MESSAGE" value="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함." />
+    <MESSAGE value="computed는 컴포넌트 로드 시 값을 저장했다가 불러옴. return필요. methods는 호출 할 때 마다 실행된다는 차이가 있음." />
+    <option name="LAST_COMMIT_MESSAGE" value="computed는 컴포넌트 로드 시 값을 저장했다가 불러옴. return필요. methods는 호출 할 때 마다 실행된다는 차이가 있음." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
