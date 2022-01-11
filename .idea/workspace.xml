@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c741671-22f4-4da8-908c-cde80983e977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vuestagram/public/follower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuestagram/src/components/MyPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuestagram/src/components/MyPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuestagram/src/components/MyPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <workItem from="1641728022329" duration="2612000" />
       <workItem from="1641816770708" duration="1032000" />
       <workItem from="1641910520022" duration="33000" />
-      <workItem from="1641910563704" duration="1418000" />
+      <workItem from="1641910563704" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -426,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641817193898</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="composition API 맛보기 정도? 뭔가 엄청 거창한건줄 알았는데 그냥 setup안에 뭉탱이로 넣은거 말고는 아직까진 왜 쓰는질 몰?루">
+      <created>1641912078847</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1641912078847</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="레이아웃 강좌를 위한 새 플젝 + bootstrap 설치" />
     <MESSAGE value="아 @ 인식안되는거 극혐" />
     <MESSAGE value="bootstrap 관련 function 사용 테스트" />
     <MESSAGE value="vue-route 쓸려고 빌드업 하는듯" />
@@ -480,7 +483,8 @@
     <MESSAGE value="store의 actions 사용. 비동기처리는 다 actions에서(ajax) / actions에서 받아온 state를 변경하려고 해도 mutations를 통해서 변경해야함." />
     <MESSAGE value="computed는 컴포넌트 로드 시 값을 저장했다가 불러옴. return필요. methods는 호출 할 때 마다 실행된다는 차이가 있음." />
     <MESSAGE value="pwa dist" />
-    <option name="LAST_COMMIT_MESSAGE" value="pwa dist" />
+    <MESSAGE value="composition API 맛보기 정도? 뭔가 엄청 거창한건줄 알았는데 그냥 setup안에 뭉탱이로 넣은거 말고는 아직까진 왜 쓰는질 몰?루" />
+    <option name="LAST_COMMIT_MESSAGE" value="composition API 맛보기 정도? 뭔가 엄청 거창한건줄 알았는데 그냥 setup안에 뭉탱이로 넣은거 말고는 아직까진 왜 쓰는질 몰?루" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
