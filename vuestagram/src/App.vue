@@ -10,8 +10,8 @@
     <img src="./assets/logo.png" class="logo" alt="logo" />
   </div>
 
-  <p>{{ $store.state.more }}</p>
-  <button @click="$store.dispatch('getData')">more</button>
+<!--  <p>{{ $store.state.more }}</p>-->
+<!--  <button @click="$store.dispatch('getData')">more</button>-->
 
   <Container
     :step="step"
@@ -48,7 +48,7 @@ export default {
     return {
       post: postData,
       moreCount: 0,
-      step: 0,
+      step: 3,
       uploadImage: "",
       writeData: "",
       selectedFilter: "",

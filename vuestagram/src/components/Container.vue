@@ -39,12 +39,18 @@ write!</textarea
         >
       </div>
     </div>
+
+    <div v-if="step === 3">
+      <MyPage />
+    </div>
+
   </div>
 </template>
 
 <script>
 import Post from "@/components/Post";
 import FilterBox from "@/components/FilterBox";
+import MyPage from "@/components/MyPage";
 
 export default {
   name: "Container",
@@ -84,6 +90,7 @@ export default {
   components: {
     Post,
     FilterBox,
+    MyPage,
   },
   props: {
     postData: Array,
