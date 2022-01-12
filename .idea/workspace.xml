@@ -99,7 +99,9 @@
       <workItem from="1641728022329" duration="2612000" />
       <workItem from="1641816770708" duration="1032000" />
       <workItem from="1641910520022" duration="33000" />
-      <workItem from="1641910563704" duration="2983000" />
+      <workItem from="1641910563704" duration="3019000" />
+      <workItem from="1641991000172" duration="15000" />
+      <workItem from="1641991027169" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="project reset">
       <created>1638544639981</created>
@@ -430,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641912078847</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="composition API로 값 받아와서 뿌려보기">
+      <created>1641916655691</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1641916655691</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="아 @ 인식안되는거 극혐" />
     <MESSAGE value="bootstrap 관련 function 사용 테스트" />
     <MESSAGE value="vue-route 쓸려고 빌드업 하는듯" />
     <MESSAGE value="vue-router 사용법 복습" />
@@ -484,7 +492,8 @@
     <MESSAGE value="computed는 컴포넌트 로드 시 값을 저장했다가 불러옴. return필요. methods는 호출 할 때 마다 실행된다는 차이가 있음." />
     <MESSAGE value="pwa dist" />
     <MESSAGE value="composition API 맛보기 정도? 뭔가 엄청 거창한건줄 알았는데 그냥 setup안에 뭉탱이로 넣은거 말고는 아직까진 왜 쓰는질 몰?루" />
-    <option name="LAST_COMMIT_MESSAGE" value="composition API 맛보기 정도? 뭔가 엄청 거창한건줄 알았는데 그냥 setup안에 뭉탱이로 넣은거 말고는 아직까진 왜 쓰는질 몰?루" />
+    <MESSAGE value="composition API로 값 받아와서 뿌려보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="composition API로 값 받아와서 뿌려보기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
